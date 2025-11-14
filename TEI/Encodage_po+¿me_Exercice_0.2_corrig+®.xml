@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Le poème de l'Anneau.</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Exemple pour un cours d'initiation à l’encodage XML-TEI.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Le Seigneur des Anneaux, La Fraternité de l'Anneau.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <head>Poèmes de J.R.R. Tolkien</head>            
+            <lg type="poem" n="1">
+                <head>Les Anneaux</head>
+                <l n="1">Trois Anneaux pour les Rois Elfes sous le ciel,</l>
+                <l n="2">Sept pour les Seigneurs Nains dans leurs demeures de pierre,</l> 
+                <l n="3">Neuf pour les Hommes Mortels destinés au trépas,</l>
+                <l n="4">Un pour le Seigneur Ténébreux sur son sombre trône,</l>
+                <l n="5">Dans le Pays de Mordor où s'étendent les Ombres.</l>
+                <l n="6">Un Anneau pour les gouverner tous. Un Anneau pour les trouver,</l>
+                <l n="7">Un Anneau pour les amener tous et dans les ténèbres les lier</l>
+                <l n="8">Au Pays de Mordor où s'étendent les Ombres.</l> 
+            </lg>
+            <lg type="poem" n="2"><!-- ajout d'un deuxieme poeme pour l'exercice -->
+                <head>Lorem ipsum</head>
+                <l n="1">lorem ipsum</l>
+                <l n="2">lorem ipsum</l>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+

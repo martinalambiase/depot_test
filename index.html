@@ -1,1 +1,54 @@
-bonjour
+<!DOCTYPE HTML>
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Édition numérique et Github Pages</title>
+      <link href="CSS/FG_stylesheet.css" rel="stylesheet">
+      <script src="JS/my_function2.js" defer="defer"></script>
+   </head>
+   <body>
+      <aside class="sidebar" id="mySidebar" aria-label="Menu principal">
+         <a class="closebtn" href="#" onclick="closeNav()" aria-label="Fermer le menu">×</a><ul>
+         <a href="index.html">Home</a>
+         <!-- Documents Section -->
+         <a href="#!" onclick="toggleDocumentList()">> Documents </a> <!-- Toggle -->
+         <ul id="documentList" style="display: none; padding-left: 20px;">
+            <li><a href="HTML/1_poesie.html" target="_blank">Poème à l'anneau</a></li>
+            <li><a href="HTML/2_prose.html" target="_blank">Exemple prose</a></li>
+         </ul>
+         <a href="#!" onclick="toggleWebList()">> Digital Framework </a> 
+         <ul id="webList" style="display: none; padding-left: 20px;">
+         <li><a href="https://github.com/CUSO-2025-Ed-Num-online?view_as=public">Project Repository | GitHub</a></li>
+         </ul>
+      </ul>
+   </aside>
+      <div class="main-wrapper">
+         <nav><button class="openbtn" onclick="openNav()" aria-label="Ouvrir le menu de navigation" aria-expanded="false"> ☰ Navigation 
+         </button>
+      </nav>
+         <header>
+            <h1>Titre du Projet</h1>
+         </header>
+         <main>
+         <div class="content-wrapper-index">
+            <section class="index-texte">
+               <h2></h2>
+               <p>description du projet</p>
+            </section>
+            <figure class="index-image"><img src="https://upload.wikimedia.org/wikipedia/commons/2/23/One_Ring_inscription.svg" alt="index-image"><figcaption></figcaption>
+             </figure>  
+            </div>
+         </main>
+            <footer>
+            <section id="credits">
+               <p><strong>Terms of Use and Citation:</strong> The citation terms are as follows: "citation dans le format désiré"</p>
+               <p>Coding &amp; design: <a href="mailto:surname.name@domaine.ch">surname.name@domaine.ch</a></p>
+            </section>
+            <section id="logos">
+               <figure class="logos-images"><img src="IMG/ihr_logo.png" alt="Logo IHR"><img src="IMG/SNF_logo.png" alt="Logo SNF"><img src="IMG/CUSO_logo.png" alt="Logo CUSO"></figure>
+            </section>
+         </footer>
+      </div>
+   </body>
+</html>
